@@ -31,7 +31,7 @@ refrence = [t_ref,class,aud,gym];
 save("RefrenceData","refrence");
 Ts = 0.25;
 p = 20;
-m = 20; % to be modified
+m = 2
 
 plant = ss(A,B,C,D);
 plant = setmpcsignals(plant,'MD',[4 5 6 7 8 9 10 11]);
